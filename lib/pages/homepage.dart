@@ -17,7 +17,7 @@ class Homepage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Image.asset(
-                      "assets/images/logo.avif",
+                      "assets/images/logo.jpg",
                       width: 180,
 
                       fit: BoxFit.cover,
@@ -151,7 +151,7 @@ class Homepage extends StatelessWidget {
                         Radius.circular(20),
                       ),
                       child: Image.asset(
-                        "assets/images/service1.avif",
+                        "assets/images/service1.jpg",
                         width: 400,
                         height: 220,
 
@@ -356,6 +356,35 @@ class Homepage extends StatelessWidget {
                       "Culturally sensitive and relevant support",
                       textAlign: TextAlign.center,
                       style: TextStyle(fontSize: 20),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 100),
+              Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(30)),
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Image.asset(
+                      "assets/images/service1.jpg",
+                      fit: BoxFit.contain,
+                    ),
+
+                    Icon(Icons.person_2_rounded, color: Colors.green, size: 50),
+                    Text(
+                      "Individual Therapy",
+                      style: TextStyle(
+                        fontSize: 30,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                    Text(
+                      "One-on-one counseling sessions in a safe, confidential environment to address anxiety, depression, trauma, and personal growth.",
+
+                      style: TextStyle(fontSize: 25),
                     ),
                   ],
                 ),
