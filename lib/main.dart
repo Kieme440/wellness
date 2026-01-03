@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wellness_flutter/pages/homepage.dart';
+import 'package:wellness_flutter/pages/test.dart';
 
 void main() {
   runApp(const MyApp());

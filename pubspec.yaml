@@ -64,6 +64,10 @@ flutter:
   - assets/images/logo.jpg
   - assets/images/lives-touched.jpg
   - assets/images/service1.jpg
+  - assets/images/service2.jpg
+  - assets/images/service3.jpg
+  - assets/images/service4.jpg
+  - assets/images/bottom-img.jpg
   - assets/images/shield-heart-svgrepo-com.svg
 
   #   - images/a_dot_ham.jpeg

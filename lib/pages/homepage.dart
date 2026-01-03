@@ -360,33 +360,343 @@ class Homepage extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(height: 100),
-              Container(
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.all(Radius.circular(30)),
+              SizedBox(height: 200),
+              Text(
+                "Our Services",
+
+                style: TextStyle(fontSize: 35, fontWeight: FontWeight.w500),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Text(
+                  "Professional mental health services tailored to meet you where you are in your healing journey",
+
+                  style: TextStyle(fontSize: 20),
+                  textAlign: TextAlign.center,
                 ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Image.asset(
-                      "assets/images/service1.jpg",
-                      fit: BoxFit.contain,
-                    ),
-
-                    Icon(Icons.person_2_rounded, color: Colors.green, size: 50),
-                    Text(
-                      "Individual Therapy",
-                      style: TextStyle(
-                        fontSize: 30,
-                        fontWeight: FontWeight.w500,
+              ),
+              SizedBox(height: 50),
+              Center(
+                child: Card(
+                  clipBehavior: Clip.antiAlias,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadiusGeometry.all(Radius.circular(20)),
+                  ),
+                  elevation: 5,
+                  margin: EdgeInsets.all(16),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Image.asset(
+                        "assets/images/service1.jpg",
+                        fit: BoxFit.cover,
+                        width: double.infinity,
+                        height: 250,
                       ),
-                    ),
-                    Text(
-                      "One-on-one counseling sessions in a safe, confidential environment to address anxiety, depression, trauma, and personal growth.",
 
-                      style: TextStyle(fontSize: 25),
-                    ),
-                  ],
+                      Padding(
+                        padding: EdgeInsetsGeometry.all(20),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Container(
+                              padding: EdgeInsets.all(15),
+                              width: 70,
+                              height: 70,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(20),
+                                ),
+                                color: Color(0xffe8ffe8),
+                              ),
+                              child: Center(
+                                child: FaIcon(
+                                  FontAwesomeIcons.solidUser,
+                                  color: Color(0xff008000),
+
+                                  size: 30,
+                                ),
+                              ),
+                            ),
+                            Text(
+                              "Individual Therapy",
+                              style: TextStyle(
+                                fontSize: 30,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            Text(
+                              "One-on-one counseling sessions in a safe, confidential environment to address anxiety, depression, trauma, and personal growth.",
+
+                              style: TextStyle(fontSize: 19),
+                            ),
+                            SizedBox(height: 20),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Learn More",
+                                  style: TextStyle(
+                                    color: Color(0xff008000),
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                SizedBox(width: 5),
+                                Icon(
+                                  Icons.arrow_forward_outlined,
+                                  color: Color(0xff008000),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+              Center(
+                child: Card(
+                  clipBehavior: Clip.antiAlias,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadiusGeometry.all(Radius.circular(20)),
+                  ),
+                  elevation: 5,
+                  margin: EdgeInsets.all(16),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Image.asset(
+                        "assets/images/service2.jpg",
+                        fit: BoxFit.cover,
+                        width: double.infinity,
+                        height: 250,
+                      ),
+
+                      Padding(
+                        padding: EdgeInsetsGeometry.all(20),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Container(
+                              padding: EdgeInsets.all(15),
+                              width: 70,
+                              height: 70,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(20),
+                                ),
+                                color: Color(0xffe8ffe8),
+                              ),
+                              child: Center(
+                                child: FaIcon(
+                                  FontAwesomeIcons.peopleArrows,
+                                  color: Color(0xff008000),
+
+                                  size: 30,
+                                ),
+                              ),
+                            ),
+                            Text(
+                              "Family and Couples Counselling",
+                              style: TextStyle(
+                                fontSize: 30,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            Text(
+                              "Strengthen relationships through guided communication, conflict resolution, and building deeper connections with your loved ones.",
+
+                              style: TextStyle(fontSize: 19),
+                            ),
+                            SizedBox(height: 20),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Learn More",
+                                  style: TextStyle(
+                                    color: Color(0xff008000),
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                SizedBox(width: 5),
+                                Icon(
+                                  Icons.arrow_forward_outlined,
+                                  color: Color(0xff008000),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+              Center(
+                child: Card(
+                  clipBehavior: Clip.antiAlias,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadiusGeometry.all(Radius.circular(20)),
+                  ),
+                  elevation: 5,
+                  margin: EdgeInsets.all(16),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Image.asset(
+                        "assets/images/service3.jpg",
+                        fit: BoxFit.cover,
+                        width: double.infinity,
+                        height: 250,
+                      ),
+
+                      Padding(
+                        padding: EdgeInsetsGeometry.all(20),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Container(
+                              padding: EdgeInsets.all(15),
+                              width: 70,
+                              height: 70,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(20),
+                                ),
+                                color: Color(0xffe8ffe8),
+                              ),
+                              child: Center(
+                                child: FaIcon(
+                                  FontAwesomeIcons.person,
+                                  color: Color(0xff008000),
+
+                                  size: 30,
+                                ),
+                              ),
+                            ),
+                            Text(
+                              "Child and Adolescent Therapy",
+                              style: TextStyle(
+                                fontSize: 30,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            Text(
+                              "Specialized support for young people navigating emotional challenges, behavioral issues, and developmental transitions.",
+
+                              style: TextStyle(fontSize: 19),
+                            ),
+                            SizedBox(height: 20),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Learn More",
+                                  style: TextStyle(
+                                    color: Color(0xff008000),
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                SizedBox(width: 5),
+                                Icon(
+                                  Icons.arrow_forward_outlined,
+                                  color: Color(0xff008000),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+              Center(
+                child: Card(
+                  clipBehavior: Clip.antiAlias,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadiusGeometry.all(Radius.circular(20)),
+                  ),
+                  elevation: 5,
+                  margin: EdgeInsets.all(16),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Image.asset(
+                        "assets/images/service4.jpg",
+                        fit: BoxFit.cover,
+                        width: double.infinity,
+                        height: 250,
+                      ),
+
+                      Padding(
+                        padding: EdgeInsetsGeometry.all(20),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Container(
+                              padding: EdgeInsets.all(15),
+                              width: 70,
+                              height: 70,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(20),
+                                ),
+                                color: Color(0xffe8ffe8),
+                              ),
+                              child: Center(
+                                child: FaIcon(
+                                  FontAwesomeIcons.users,
+                                  color: Color(0xff008000),
+
+                                  size: 30,
+                                ),
+                              ),
+                            ),
+                            Text(
+                              "Group Therapy Session",
+                              style: TextStyle(
+                                fontSize: 30,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            Text(
+                              "Connect with others facing similar challenges in a supportive group environment guided by professional facilitators.",
+
+                              style: TextStyle(fontSize: 19),
+                            ),
+                            SizedBox(height: 20),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Learn More",
+                                  style: TextStyle(
+                                    color: Color(0xff008000),
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                SizedBox(width: 5),
+                                Icon(
+                                  Icons.arrow_forward_outlined,
+                                  color: Color(0xff008000),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ],
