@@ -699,6 +699,178 @@ class Homepage extends StatelessWidget {
                   ),
                 ),
               ),
+
+              Center(
+                child: Card(
+                  clipBehavior: Clip.antiAlias,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadiusGeometry.all(Radius.circular(20)),
+                  ),
+                  elevation: 5,
+                  margin: EdgeInsets.all(16),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(color: Color(0xffe8ffe8)),
+                        child: Center(
+                          child: Padding(
+                            padding: const EdgeInsets.only(top: 50, bottom: 50),
+                            child: FaIcon(
+                              FontAwesomeIcons.briefcase,
+                              size: 60,
+                              color: Color(0xff008000),
+                            ),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: EdgeInsetsGeometry.all(20),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Container(
+                              padding: EdgeInsets.all(15),
+                              width: 70,
+                              height: 70,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(20),
+                                ),
+                                color: Color(0xffe8ffe8),
+                              ),
+                              child: Center(
+                                child: FaIcon(
+                                  FontAwesomeIcons.solidBuilding,
+                                  color: Color(0xff008000),
+                                  size: 30,
+                                ),
+                              ),
+                            ),
+                            Text(
+                              "Corporate Wellness Programs",
+                              style: TextStyle(
+                                fontSize: 30,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            Text(
+                              "Employee assistance programs, stress management workshops, and organizational mental health initiatives.",
+
+                              style: TextStyle(fontSize: 19),
+                            ),
+                            SizedBox(height: 20),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Learn More",
+                                  style: TextStyle(
+                                    color: Color(0xff008000),
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                SizedBox(width: 5),
+                                Icon(
+                                  Icons.arrow_forward_outlined,
+                                  color: Color(0xff008000),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+              Center(
+                child: Card(
+                  clipBehavior: Clip.antiAlias,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadiusGeometry.all(Radius.circular(20)),
+                  ),
+                  elevation: 5,
+                  margin: EdgeInsets.all(16),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(color: Color(0xffe8ffe8)),
+                        child: Center(
+                          child: Padding(
+                            padding: const EdgeInsets.only(top: 50, bottom: 50),
+                            child: FaIcon(
+                              FontAwesomeIcons.person,
+                              size: 60,
+                              color: Color(0xff008000),
+                            ),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: EdgeInsetsGeometry.all(20),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Container(
+                              padding: EdgeInsets.all(15),
+                              width: 70,
+                              height: 70,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(20),
+                                ),
+                                color: Color(0xffe8ffe8),
+                              ),
+                              child: Center(
+                                child: FaIcon(
+                                  FontAwesomeIcons.graduationCap,
+                                  color: Color(0xff008000),
+                                  size: 30,
+                                ),
+                              ),
+                            ),
+                            Text(
+                              "Workshop & Training",
+                              style: TextStyle(
+                                fontSize: 30,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            Text(
+                              "Educational programs on mental health awareness, coping strategies, and emotional intelligence for communities and organizations.",
+
+                              style: TextStyle(fontSize: 19),
+                            ),
+                            SizedBox(height: 20),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Learn More",
+                                  style: TextStyle(
+                                    color: Color(0xff008000),
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                SizedBox(width: 5),
+                                Icon(
+                                  Icons.arrow_forward_outlined,
+                                  color: Color(0xff008000),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
             ],
           ),
         ),
